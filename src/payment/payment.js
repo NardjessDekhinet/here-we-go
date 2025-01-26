@@ -54,7 +54,7 @@ const CheckoutForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto h-72 w-full bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+    <form onSubmit={handleSubmit} className="max-w-md mx-auto h-96 w-full bg-white p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
       <h2 className="text-2xl font-semibold text-center mb-6 text-gray-800">Complete Your Payment</h2>
 
       <div className="mb-6">

@@ -181,7 +181,7 @@ return (
                     className="p-3 bg-white border border-border transition-transform transform hover:scale-105"
                   >
                    
-                   <h3 className="text-lg font-semibold mb-4">{worker.service}</h3>
+                   <h3 className="text-lg font-semibold mb-4">{t(`${worker.service}`)}</h3>
   
   {/* Flex Container for Image and Content */}
   <div className="flex items-center">
@@ -194,8 +194,8 @@ return (
     
     {/* Text and Input on the Right */}
     <div className="flex flex-col">
-      <p className="text-black font-medium">{worker.workerName}</p>
-      <p className="text-red-700 mt-1">{worker.price}</p>
+      <p className="text-black font-medium">{t(`${worker.name}`)}</p>
+      <p className="text-red-700 mt-1">{t(`${worker.price}`)}</p>
       <Link to="/book" state={{ selectedWorkers }} className="mt-4">
         <input
           type="checkbox"

@@ -1,16 +1,11 @@
 import React from 'react';
 import bookingHistory from '../data/bookingHistory';
-import Navigation1 from '../navigation/navigation1';
-import Footer from '../footer/footer';
 
 const HistoriqueDesServices = () => {
   // Assume this variable determines if the user is signed up or not
   const isUserSignedUp = true; // Replace with actual user authentication logic
 
   return (
-    <div>
-      <Navigation1></Navigation1>
-
     <div className="max-w-6xl mx-auto mt-16 p-8 bg-gradient-to-br from-white to-gray-50 shadow-2xl rounded-xl">
       <h1 className="text-4xl text-start font-bold text-black mb-10">
         Historique des Services
@@ -84,10 +79,6 @@ const HistoriqueDesServices = () => {
           </table>
         </div>
       )}
-    </div>
-    <div className='mt-24'>
-    <Footer></Footer>
-    </div>
     </div>
   );
 };

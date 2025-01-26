@@ -98,7 +98,7 @@ const Signup = () => {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await axios.post('http://localhost:3500/register', {
+        const response = await axios.post('/api/signup', {
           firstName: formValues.firstName,
           lastName: formValues.lastName,
           phoneNumber: formValues.phoneNumber,

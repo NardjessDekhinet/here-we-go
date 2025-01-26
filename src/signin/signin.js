@@ -66,7 +66,7 @@ const Signin = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:3500/login", {
+      const response = await fetch("YOUR_BACKEND_URL/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -162,7 +162,7 @@ const Signin = () => {
             {/* Forgot Password */}
             <div className="flex justify-end mt-1">
               <a
-                href="#pwd"
+                href="#"
                 onClick={handleForgotPassword}
                 className="text-blue-500 text-sm hover:underline"
               >

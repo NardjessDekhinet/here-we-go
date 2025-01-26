@@ -4,14 +4,14 @@ const bookingHistory = [
       service: 'Soin du visage de luxe',
       stylist: 'Sophie Laurent',
       date: '2023-12-10',
-      price: '2000DA',
+      price: 'AED 200',
     },
     {
       id: 2,
       service: 'Forfait Spa Complet',
       stylist: 'Marie Dupont',
       date: '2023-11-20',
-      price: '3000DA',
+      price: 'AED 500',
     },
   ];
   export default bookingHistory;
